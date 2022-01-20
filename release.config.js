@@ -30,13 +30,8 @@ module.exports = {
         assets: ['CHANGELOG.md', 'README.md', 'package.json', 'yarn.lock'],
       },
     ],
-    [
-      '@semantic-release/github',
-      {
-        assets: 'ha-ulics-icons.js',
-      },
-    ],
   ],
+  ci: false,
   preset: 'conventionalcommits',
   branches: [{ name: 'master' }, { name: 'dev', channel: 'beta', prerelease: true }],
 };
