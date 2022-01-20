@@ -1,6 +1,6 @@
 {
   "name": "ulics-icons",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "Icons for use in Home Assistant",
   "main": "ha-ulics-icons.js",
@@ -17,6 +17,8 @@
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.2",
+    "conventional-changelog-conventionalcommits": "^4.6.3",
     "semantic-release": "^19.0.2"
   }
 }
