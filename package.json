@@ -1,0 +1,22 @@
+{
+  "name": "ulics-icons",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Icons for use in Home Assistant",
+  "main": "ha-ulics-icons.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulic75/ha-ulics-icons.git"
+  },
+  "author": "Joshua Reilly <ulic75@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ulic75/ha-ulics-icons/issues"
+  },
+  "homepage": "https://github.com/ulic75/ha-ulics-icons#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^19.0.2"
+  }
+}
